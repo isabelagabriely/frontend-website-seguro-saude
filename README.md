@@ -5,10 +5,10 @@
 
 ##### UI:
 * ###### *Tela inicial com banner*
-![alt text](https://github.com/isabelagabriely/frontend-website-seguro-saude/blob/master/docs/_images/home.png)
+![alt text](https://github.com/isabelagabriely/frontend-website-seguro-saude/blob/master/docs/_static/home.png)
 
 * ###### *Tela sobre a empresa com missão, visão e valores*
-![alt text](https://github.com/isabelagabriely/frontend-website-seguro-saude/blob/master/docs/_images/about.png)
+![alt text](https://github.com/isabelagabriely/frontend-website-seguro-saude/blob/master/docs/_static/about.png)
 
 * ###### *Tela com tabela de IMC que calcula medida utilizando Javascript*
 ![alt text](https://github.com/isabelagabriely/frontend-website-seguro-saude/blob/master/docs/_static/imc.gif)
