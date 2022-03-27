@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="static/css/style.css">
+        <script type="text/javascript" src="static/js/signup.js"></script>
+
+        <link rel="icon" href="static/img/nebula.ico">
+        <title>neBULA - Cadastrar</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Spicy+Rice&display=swap" rel="stylesheet"> 
+    </head>
+    
+    <body>
+        <div class="base">
+            <h1>neBULA</h1>
+            <h4>Seguro Saúde</h4>
+            <a href="home.html"><img class="logo" src="static/img/nebula.png"></a>
+            <h5>Design © Isabela Gabriely</h5>
+        </div>
+        
+        <div class="options">
+            <p><a href="home.html">INÍCIO</a></p>
+            <p><a href="about.html">SOBRE</a></p>
+            <p><a href="imc.html">IMC</a></p>
+            <p><a href="signup.html">CADASTRAR</a></p>
+        </div>
+
+        <div class="box">
+            <div class="box-signup">
+                <p>JUNTE-SE A NÓS!</p>
+
+                <div class="space-names">
+                    <label for="name">Nome</label>
+                    <label for="birthdate">Data de Nascimento</label>
+                    <label for="gender">Gênero</label>
+                    <label for="doc">Documento</label>
+                </div>
+
+                <div class="space">
+                    <input type="text" id="name">
+                    <input type="date" id="birthdate" value="">
+                    <input type="text" id="gender">
+                    <input type="text" id="doc" placeholder="CPF ou CNPJ">
+                </div>
+
+                <div class="space-names">
+                    <label for="adress">Endereço</label>
+                    <label for="num">Nº</label>
+                    <label for="zipcode">CEP</label>
+                    <label for="city">Cidade | UF</label>
+                </div>
+
+                <div class="space">
+                    <input type="text" id="adress">
+                    <input type="number" id="num">
+                    <input type="tel" id="zipcode" placeholder="00000-000">
+                    <input type="text" id="city" placeholder="Cidade/UF">
+                </div>
+
+                <button class="signup-button" id="validateCPF">Cadastrar</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,312 @@
+html, body {
+    overflow: hidden;
+    background: black;
+}
+
+.logo {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    left: 195px;
+    top: 60px;
+}
+
+.background {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.base h1 {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    left: 310px;
+    top: 40px;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 50px;
+    color: #AD39FC;
+    opacity: 10;
+}
+
+.base h4 {
+    position: fixed;
+    width: 150px;
+    height: 20px;
+    left: 310px;
+    top: 115px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+}
+
+.base h5 {
+    position: fixed;
+    width: 150px;
+    height: 10px;
+    left: 685px;
+    top: 650px;
+    font-family: 'Open Sans';
+    font-size: 10px;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 2px #AD39FC;
+}
+
+.options {
+    width: 520px;
+    height: 100px;
+    font-family: 'Patrick Hand';
+    font-size: 20px;
+    position: fixed;
+    top: 60px;
+    left: 600px;
+    display: flex;
+}
+
+.options p {
+    padding-bottom: 20px;
+    opacity: 80%;
+    transform: scale(1.0);
+}
+
+.options p:hover {
+    opacity: 100%;
+    transform: scale (1.2);
+    font-size: 22px;
+}
+
+.options p a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 0.5px solid #AD39FC;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.slogan h1 {
+    width: 550px;
+    height: 100px;
+    font-family: 'Spicy Rice';
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    top: 300px;
+    left: 520px;
+}
+
+.banner {
+    width: 430px;
+    height: 730px;
+    position: fixed;
+    top: 0;
+    left: 1100px;
+    opacity: 90%;
+}
+
+.box {
+    width: 1580px;
+    height: 460px;
+    position: fixed;
+    top: 200px;
+}
+
+.box-about {
+    float: left;
+    width: 460px; 
+    height: 300px;
+    margin: 20px 23px;
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+}
+
+.box-about h1 {
+    font-family: 'Spicy Rice';
+    text-align: center;
+    text-shadow: 2px 2px 2px #AD39FC;
+}
+
+.box-about h4 {
+    font-family: 'Patrick Hand';
+}
+
+
+iframe {
+    position: fixed;
+    width: 1580px;
+    height: 100px;
+    top: 525px;
+}
+
+.box-imc {
+    float: left;
+    width: 700px; 
+    height: 400px;
+    margin: 50px 30px;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.table {
+    width: 600px;
+    height: 250px;
+    align-self: center;
+    text-align: center;
+    font-family: 'Patrick Hand';
+    background-color: #FF3AE9;
+}
+
+.table tr:nth-child(even) {
+    background-color: rgba(204, 204, 204, 0.8);
+}
+
+.table tr:nth-child(odd) {
+    background-color: #FFF;
+}
+
+.imc-calc {
+    margin: 0 auto;
+    width: 600px;
+    height: 260px;
+    align-self: center;
+    text-align: center;
+    font-family: 'Patrick Hand';
+}
+
+input {
+    padding: 5px 10px;
+    width: 150px;
+    height: 30px;
+    margin: 20px 10%;
+    border-radius: 10px;
+    display: flex;
+    font-family: 'Patrick Hand';
+    font-size: 20px;
+    color:black;
+    background-color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.imc-button {
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Patrick Hand';
+    font-size: 15px;
+    margin: 100px auto;
+}
+
+.imc-button:hover {
+    box-shadow: 0 0 5pt 4pt #FF3AE9;
+}
+
+.show-imc {
+    width: 330px;
+    height: 100px;
+    top: 435px;
+    left: 1100px;
+    position: fixed;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+
+.imc {
+    width: 500px;
+    height: 150px;
+    margin: 0 auto;
+    color: white;
+}
+
+.imc h1 {
+    font-family: 'Spicy Rice';
+    text-align: center;
+    text-shadow: 2px 2px 2px #AD39FC;
+    margin: 0 auto;
+}
+
+.imc h3 {
+    font-family: 'Patrick Hand';
+    text-align: justify;
+    font-size: 20px;
+}
+
+.box-signup {
+    border-radius: 40px;
+    width: 1300px;
+    height: 460px;
+    left: 110px;
+    position: fixed;
+    color: white;
+}
+
+.box-signup p {
+    width: 200px;
+    height: 30px;
+    font-family: 'Spicy Rice';
+    font-size: 25px;
+    text-shadow: 2px 2px 2px #AD39FC;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.space-names {
+    float: left;
+    width: 200px;
+    height: 285px;
+    margin: 50px 20px;
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Patrick Hand';
+    font-size: 20px;
+}
+
+.space {
+    float: left;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.space input {
+    width: 300px;
+    margin: 14px 10px;
+}
+
+.signup-button {
+    width: 150px;
+    height: 30px;
+    font-family: 'Patrick Hand';
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 0 1000px;
+}
+
+.signup-button:hover {
+    box-shadow: 0 0 5pt 4pt #FF3AE9;
+}
+
+input:focus {
+    outline-style: dotted;
+    outline-color: #AD39FC;
+    outline-width: 5px;
+}

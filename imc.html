@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="static/css/style.css">
+        <script type="text/javascript" src="static/js/imc.js"></script>
+
+        <link rel="icon" href="static/img/nebula.ico">
+        <title>neBULA - IMC</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Spicy+Rice&display=swap" rel="stylesheet"> 
+    </head>
+    
+    <body>
+        <img class="background" src="static/img/imc.png">
+
+        <div class="base">
+            <h1>neBULA</h1>
+            <h4>Seguro Saúde</h4>
+            <a href="home.html"><img class="logo" src="static/img/nebula.png"></a>
+            <h5>Design © Isabela Gabriely</h5>
+        </div>
+ 
+        <div class="options">
+            <p><a href="home.html">INÍCIO</a></p>
+            <p><a href="about.html">SOBRE</a></p>
+            <p><a href="imc.html">IMC</a></p>
+            <p><a href="signup.html">CADASTRAR</a></p>
+        </div>
+
+        <div class="box">
+            <div class="box-imc">
+                <div class="imc">
+                    <h1>IMC</h1>
+                    <h3>O índice de massa corporal é uma medida internacional usada para calcular se uma pessoa está no peso ideal.</h3>
+                </div>
+
+                <table class="table">
+                    <tr>
+                        <th>IMC</th>
+                        <th>Classificação</th>
+                        <th>Obesidade</th>
+                    </tr>
+        
+                    <tr>
+                        <td>MENOR QUE 18,5</td>
+                        <td>MAGREZA</td>
+                        <td>0</td>
+                    </tr>
+        
+                    <tr>
+                        <td>ENTRE 18,5 E 24,9</td>
+                        <td>NORMAL</td>
+                        <td>0</td>
+                    </tr>
+        
+                    <tr>
+                        <td>ENTRE 25,0 E 29,9</td>
+                        <td>SOBREPESO</td>
+                        <td>I</td>
+                    </tr>
+        
+                    <tr>
+                        <td>ENTRE 30,0 E 39,9</td>
+                        <td>OBESIDADE</td>
+                        <td>II</td>
+                    </tr>
+        
+                    <tr>
+                        <td>MAIOR QUE 40,0</td>
+                        <td>OBESIDADE GRAVE</td>
+                        <td>III</td>
+                    </tr>
+                </table>
+            </div>
+
+            
+            <div class="box-imc">
+                <div class="imc">
+                    <h1>Calcule seu IMC!</h1>
+                </div>
+                
+                <div class="imc-calc">
+                    <input type="number" id="weight" placeholder="Peso (kg)">
+                    <input type="number" id="height" placeholder="Altura (m)">
+                    <button class="imc-button" id="getIMC">Calcular IMC</button>
+                    <div class="show-imc"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
